@@ -8,7 +8,7 @@
     color: #ffc107;
 }
 
-.dropdown-item:hover {
+.dropdown-menu li a:hover {
     background-color: #ffc107;
 }
 
@@ -21,7 +21,7 @@
     font-weight: 300;
     list-style: none;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .listOfk {
