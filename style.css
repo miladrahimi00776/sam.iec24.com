@@ -14,9 +14,12 @@
 
 .main-h1 {
     font-weight: bold;
-    margin-right: 30px;
 }
-
+@media(min-width:978px) {
+    .main-h1 {
+        margin-right: 30px;
+    }
+}
 .main-ul {
     font-weight: 300;
     list-style: none;
@@ -47,4 +50,12 @@
     transition: ease-in 0.1s;
     padding: 0 5px;
     background-color: #ffc107;
+}
+article div div p a {
+    color: black;
+    text-decoration: none;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+}
+article div div p a:hover {
+    color: rgb(255, 255, 255);
 }
