@@ -1,0 +1,50 @@
+* {
+    font-family: 'Vazir', sans-serif;
+}
+.navbar-brand h2 {
+    font-weight: bold;
+}
+.nav-item > a:hover {
+    color: #ffc107;
+}
+
+.dropdown-item:hover {
+    background-color: #ffc107;
+}
+
+.main-h1 {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.main-ul {
+    font-weight: 300;
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.listOfk {
+    list-style: none;
+    line-height: 40px;
+    font-size: 16px;
+
+}
+.listOfk a{
+    text-decoration: none;
+}
+#text {
+    font-weight: bold;
+}
+#copyRight {
+    font-size: 13px;
+}
+.iknow {
+    transition: ease-in 0.1s;
+}
+.iknow:hover {
+    border-radius: 5px;
+    transition: ease-in 0.1s;
+    padding: 0 5px;
+    background-color: #ffc107;
+}
